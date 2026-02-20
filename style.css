@@ -436,3 +436,156 @@ footer {
 .footer-list {
     list-style: none;
 }
+
+/*---------media queries----------*/
+@media (max-width:480px) {
+
+.text-section{
+ width: 50%;
+ padding:clamp(5px, 3vw, 12px); 
+ left: 1%; 
+}
+
+.heading1 {
+    font-size: 16px;
+    padding-bottom: 4px;
+}
+.heading2 {
+    font-size: 14px;
+    padding-bottom: 4px;
+}
+hr {
+    width: 60%;
+}
+.p1 {
+    padding-top: 4px;
+}
+.bp {
+    font-size: 10px;
+}
+.primary-button,.secondary-button {
+    padding:5px
+}
+.image-section {
+    margin-left: 40%;
+    height: 35vh;
+}
+.image-section img {
+    width: 100%;
+}
+
+/*----Middle section----*/
+.middle-section {
+    padding: 2px;
+}
+.about-section {
+  width: 100%;
+  padding: 11px;
+}
+
+.project-section {
+    width: 100%;
+    padding: 3px;
+    border: none;
+    border-top: 2px solid #ddd;
+    margin-top: 2px;
+}
+
+
+.about-list {
+    padding:3px;
+    margin-left:2px;
+}
+
+.hr2 {
+    margin-block: 2px;
+}
+
+.res-flex {
+    flex-direction: column;
+}
+.hr3 {
+    margin-top: 4px;
+}
+
+.project-button {
+    width: 70%;
+    font-size: 10px;
+}
+
+/*----skill section----*/
+
+li img {
+    width: 40%;
+}
+
+/*---contact section-----*/
+
+.contact-me {
+    width: 100%;
+}
+
+.queries {
+    width: 100%;
+}
+
+input[type="text"],input[type="email"],textarea {
+    padding:3px;
+}
+    
+}
+
+
+/*-------media queries-----*/
+@media (max-width:781px) {
+
+    .image-section {
+        width: 40%;
+        margin-left: 50%;
+        height: 45vh;
+    }
+
+    .image-section img {
+        width: 100%;
+    }
+
+    /*------middle section----*/
+    .middle-section {
+    padding: 10px;
+}
+    .res-flex {
+        flex-direction: column;
+    }
+    .about-section {
+        width: 100%;
+    }
+    .project-section {
+        width: 100%;
+        padding: 5px;
+        border: none;
+        border-top: 5px solid #ddd ;
+        margin-top: 10px;
+        height: 60vh;
+    }
+
+    .hr2 {
+    margin-block: 5px;
+}
+
+.box1 {
+    height: 40vh;
+}
+
+/*-----skill section----*/
+
+li img {
+    width: 40%;
+}
+
+/*----contact section----*/
+
+input[type="text"],input[type="email"],textarea {
+    padding:3px;
+}
+    
+}
