@@ -171,15 +171,11 @@ header {
     height: auto;
     position: absolute;
     top:350px;
-    left:50px;
-    border: 2px solid black;
-    
 }
 
 .image-section {
     width: 100%;
     height: auto;
-    border: 2px solid black;
 }
 
 .image-section img {
@@ -250,6 +246,7 @@ hr {
 .boxes {
     width: 100%;
     margin-top: var(--least-margin);
+    gap:10px;
 }
 
 .box1 {
@@ -341,7 +338,7 @@ li img:hover {
 
 .contact-me {
     width: 45%;
-    height: 50vh;
+    height: auto;
 }
 
 .ct {
@@ -375,7 +372,7 @@ li img:hover {
     padding: var(--least-padding);
     display: flex;
     flex-direction: column;
-    height:50vh;
+    height:auto;
 }
 
 input[type="text"],input[type="email"],textarea {
@@ -446,10 +443,10 @@ footer {
 
 
     .ul-class {
-        gap:5%;
+        gap:8%;
     }
     .nav-links {
-    font-size:clamp(12px, 2.2vw,18px);
+    font-size:clamp(13px, 2.2vw,18px);
 }
 
 .top-flex {
@@ -459,31 +456,33 @@ footer {
 }
 
 .text-section{
-top:100px;
-left: 10px;
+top:200px;
  width: 100%;
  padding:clamp(5px, 3vw, 12px);
+ height: auto;
 }
 
 .heading1 {
-    font-size: 16px;
+    font-size: 24px;
     padding-bottom: 4px;
 }
 .heading2 {
-    font-size: 14px;
+    font-size: 16px;
     padding-bottom: 4px;
 }
 hr {
-    width: 60%;
+    width:120px;
 }
 .p1 {
     padding-top: 4px;
+    font-size: 16px;
 }
 .bp {
-    font-size: 10px;
+    font-size: 14px;
 }
 .primary-button,.secondary-button {
-    padding:5px
+    padding:8px;
+    font-size:20px;
 }
 .image-section {
     width: 100%;
@@ -549,17 +548,16 @@ li img {
 
 .res-flex {
     flex-direction: column;
+    gap:10px;
 }
 
 .contact-me {
     width: 100%;
-    border: 2px solid black;
     height: auto;
 }
 
 .queries {
     width: 100%;
-    border: 2px solid black;
 }
 
 input[type="text"],input[type="email"],textarea {
