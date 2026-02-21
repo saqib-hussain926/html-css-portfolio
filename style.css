@@ -460,7 +460,7 @@ footer {
 }
 
 .text-section{
-top:0;
+top:50px;
  width: 100%;
  padding:clamp(5px, 3vw, 12px);
  height: auto;
