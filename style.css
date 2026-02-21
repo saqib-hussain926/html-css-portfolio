@@ -73,7 +73,7 @@ p {
 
 .flex {
     display: flex;
-    justify-content: space-between;
+    justify-content:flex-start;
 }
 
 button {
@@ -156,32 +156,34 @@ header {
     width: 100%;
     background-color:#504f7f;
     height: auto;
-    overflow: hidden;
+    padding: 10px;
+
+}
+.top-flex {
+    flex-direction: column;
 }
 .position-flex {
     position: relative;
 }
-
 .text-section {
-    max-width: 50%;
+    width: 100;
     padding:var(--padding);
     height: auto;
     position: absolute;
-    left: 10%;
+    top:350px;
+    left:50px;
     border: 2px solid black;
     
 }
 
 .image-section {
-    max-width: 50%;
+    width: 100%;
     height: auto;
-    overflow: hidden;
-    margin-left: 40%;
     border: 2px solid black;
 }
 
 .image-section img {
-    max-width: 60%;
+    width: 100%;
 
 }
 
@@ -442,6 +444,14 @@ footer {
 /*---------media queries----------*/
 @media (max-width:480px) {
 
+
+    .ul-class {
+        gap:5%;
+    }
+    .nav-links {
+    font-size:clamp(12px, 2.2vw,18px);
+}
+
 .top-flex {
     display: flex;
     justify-content: center;
@@ -449,8 +459,9 @@ footer {
 }
 
 .text-section{
- position: static;
- max-width: 50%;
+top:200px;
+left: 10px;
+ width: 100%;
  padding:clamp(5px, 3vw, 12px);
 }
 
@@ -475,12 +486,12 @@ hr {
     padding:5px
 }
 .image-section {
-    max-width: 50%;
+    width: 100%;
     margin-left: 0;
-    height: 35vh;
+    height: auto;
 }
 .image-section img {
-    max-width: 100%;
+    width: 100%;
 }
 
 /*----Middle section----*/
@@ -531,7 +542,7 @@ hr {
 /*----skill section----*/
 
 li img {
-    width: 40%;
+   width: 40%;
 }
 
 /*---contact section-----*/
@@ -542,10 +553,12 @@ li img {
 
 .contact-me {
     width: 100%;
+    border: 2px solid black;
 }
 
 .queries {
     width: 100%;
+    border: 2px solid black;
 }
 
 input[type="text"],input[type="email"],textarea {
