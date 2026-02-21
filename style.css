@@ -477,10 +477,12 @@ footer {
 .heading1 {
     font-size: 20px;
     padding-bottom: 4px;
+    color: black;
 }
 .heading2 {
     font-size: 16px;
     padding-bottom: 4px;
+    color:black
 }
 hr {
     width:120px;
@@ -488,6 +490,7 @@ hr {
 .p1 {
     padding-top: 4px;
     font-size: 16px;
+    color: black;
 }
 .bp {
     font-size: 14px;
