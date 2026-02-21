@@ -160,26 +160,29 @@ header {
 
 }
 .top-flex {
-    flex-direction: column;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    overflow: hidden;
+    
 }
 .position-flex {
-    position: relative;
+   
 }
 .text-section {
-    width: 100;
+    width: 45%;
     padding:var(--padding);
-    height: auto;
-    position: absolute;
-    top:350px;
+    height: 45vh;
 }
 
 .image-section {
-    width: 100%;
-    height: auto;
+    width: 48%;
+    height: 45vh;
 }
 
 .image-section img {
-    width: 100%;
+    width: 60%;
+    object-fit: cover;
 
 }
 
