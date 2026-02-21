@@ -451,12 +451,12 @@ footer {
 
 .top-flex {
     display: flex;
-    justify-content: center;
+    justify-content:flex-start;
     align-items: center;
 }
 
 .text-section{
-top:0px;
+top:0;
  width: 100%;
  padding:clamp(5px, 3vw, 12px);
  height: auto;
@@ -523,7 +523,8 @@ hr {
 }
 
 .hr2 {
-    margin-block: 2px;
+    margin-block: 5px;
+    width: 100%;
 }
 
 .res-flex {
