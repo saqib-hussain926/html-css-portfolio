@@ -677,6 +677,35 @@ input[type="text"],input[type="email"],textarea {
     
 }
 
+@media (max-width:425px) {
+    .text-section h2 {
+        font-size: 20px;
+    }
 
+    .text-section h3 {
+        font-size: 14px;
+        padding: 0;
+        margin: 0;
+    }
 
+    .text-section p {
+        font-size: 12px;
+    }
+}
+
+@media (max-width:375px) {
+     .text-section h2 {
+        font-size: 18px;
+    }
+
+    .text-section h3 {
+        font-size: 12px;
+        padding: 0;
+        margin: 0;
+    }
+
+    .text-section p {
+        font-size: 12px;
+    }
+}
 
